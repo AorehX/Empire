@@ -1,0 +1,26 @@
+<div class="header-container">
+    <div class="header-child">
+
+        <div class="logo-container">
+            <div class="title">
+                <h3>Eddy's Empire</h3>
+            </div>
+        </div>
+
+        <div class="nav-link">
+            <ul>
+                <li><a routerLink="/home">Home &nbsp; &#124;</a></li>
+                <li><a routerLink="/products">Products</a></li>
+            </ul>
+        </div>
+
+        <div class="search-bar">
+            <input type="search" placeholder="Search for items" required>
+            <button (click)="searchHome()">Search</button>
+        </div>
+    </div>
+</div>
+
+<div class="router-link">
+    <router-outlet />
+</div>
