@@ -6,11 +6,12 @@
 }
 
 /*Reset Page*/
-body {
+body, html {
     margin: 0;
     padding: 0;
     line-height: 1.5;
     box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .header-child {

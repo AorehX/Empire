@@ -13,9 +13,6 @@ import {NgOptimizedImage} from '@angular/common';
 })
 
 export class Products {
-
-
-
   banner: string = "https://res.cloudinary.com/zone0/image/upload/banner_ja2sk9.jpg"
   image_banner: string = "https://res.cloudinary.com/zone0/image/upload/bob-wig-with-bangs-1-400x380.jpg_yev5xw.webp"
   image_1: string = "https://res.cloudinary.com/zone0/image/upload/bundles-with-closure-400x180.jpg_xrsdas.webp"
