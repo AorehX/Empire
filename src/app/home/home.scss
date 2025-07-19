@@ -13,8 +13,15 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    background-color: whitesmoke ;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+
 .sibling-text {
     text-align: center;
+  margin: 10px;
 }
 
 .header-siblings {
@@ -25,7 +32,8 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background-color: whitesmoke;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .sibling-image {
@@ -53,11 +61,20 @@ body {
     text-align: center;
 }
 
+.sibling-form, input, label, button, select {
+    margin: 10px;
+    border-radius: 10px;
+}
+
 .header-second-child {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.header-second-child p {
+  text-align: center;
 }
 
 .image-sample {
@@ -92,6 +109,7 @@ body {
     align-content: center;
     justify-content: center;
     text-decoration: none;
+    color: #000;
 }
 
 .whatsapp-float {
@@ -119,7 +137,24 @@ left: 20px;
 ==================
  */
 /*Old devices*/
-@media (min-width:370px) and (max-width: 420px) {}
+@media (min-width:370px) and (max-width: 420px) {
+    .header-second-child {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .image-sample img {
+        border-radius: 50%;
+        display: block;
+        width: 100%;
+        height: auto;
+
+    }
+}
 
 /* Mobile */
 @media (max-width: 480px) {}

@@ -96,6 +96,17 @@ body {
 ==================
  */
 /*Old devices*/
+@media (min-width:340px){
+    .header-child {
+        display: flex;
+        border-radius: 5px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
 @media (min-width:370px) and (max-width: 420px) {
     .header-child {
         display: flex;

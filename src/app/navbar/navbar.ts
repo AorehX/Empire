@@ -7,8 +7,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   templateUrl: './navbar.html',
   styleUrl: './navbar.scss'
 })
-  
+
 export class Navbar {
+  title:string = "Eddy's Empire"
 
   searchHome() {
     alert('This will search global items!')
