@@ -1,19 +1,14 @@
 import { Component } from '@angular/core';
 import { Navbar } from "./navbar/navbar";
-
-
-
+import {Footer} from './footer/footer';
 
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar],
+  imports: [Navbar, Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
-  
-  
-export class App {
 
- 
-}
+
+export class App {}

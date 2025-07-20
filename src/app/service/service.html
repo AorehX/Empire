@@ -1,0 +1,283 @@
+<section>
+  <div class="heading-container">
+    <div class="heading">
+      <h2>{{ titleHeading }} 💇‍♀️✨</h2>
+    </div>
+
+    <div class="heading-text">
+      <p>
+        Welcome to Eddy's Hair Empire - where fashion meets hair artistry to create stunning transformations that
+        empower confidence and style.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+
+<main>
+  <div>
+    <h3>{{ aboutUs }}</h3>
+    <p>
+      Eddy's Hair Empire is a premier hair and fashion destination dedicated to providing exceptional hair services,
+      <br>
+      cutting-edge styling, and fashion-forward looks. Our team of skilled professionals combines creativity, technical
+      expertise, <br> and the latest trends to deliver personalized experiences that exceed expectations.
+    </p>
+  </div>
+
+  <div>
+    <h3>{{ theMission }}</h3>
+    <p>
+      To empower individuals through transformative hair and fashion experiences, <br> helping them express their unique
+      style
+      and build confidence that radiates from within.
+    </p>
+  </div>
+
+  <div>
+    <h3>{{ offerService }}</h3>
+
+    <h3>{{ hairService }}</h3>
+
+    <div class="service-list">
+      @for (service of serviceList; track serviceList) {
+        <ul>
+          <li>{{ service }}</li>
+        </ul>
+      }
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h3>Fashion Consulting</h3>
+      <div class="consult">
+        @for (consult of consultService; track consultService) {
+          <ul>
+            <li>{{ consult }}</li>
+          </ul>
+        }
+      </div>
+    </div>
+
+    <div>
+      <h3>Why Choose Eddy's Hair Empire</h3>
+      <div>
+        @for (hair of hairEmpire; track hairEmpire) {
+          <ul>
+            <li>
+              {{ hair }}
+            </li>
+          </ul>
+        }
+      </div>
+    </div>
+  </div>
+
+  <div class="local-container">
+    <div class="busy-location">
+    <div>
+      <h3>Business Hours</h3>
+      <div class="work-time">
+        @for (time of businessTime; track businessTime) {
+          {{ time }} <br>
+        }
+      </div>
+    </div>
+
+    <div>
+      <p>
+      <strong>Appointments recommended - Walk-ins welcome based on availability</strong>
+    </p>
+    </div>
+
+    <div>
+      <h4>Location & Contact</h4>
+      <div>
+        @for (local of locationContact; track locationContact) {
+          {{ local }} <br>
+        }
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h3>Social Media</h3>
+    <div class="social-links">
+      <ul>
+        <li><a href="https://www.instagram.com/hair_eddys?igsh=MTMyZXN3Z3Nrd2NwdA%3D%3D&utm_source=qr"><img
+          src="https://res.cloudinary.com/zone0/image/upload/instagram-fill_zqpuwo.png"
+          alt="">&nbsp;&nbsp;Instagram</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100075856275227"><img
+          src="https://res.cloudinary.com/zone0/image/upload/facebook-line_w07dij.png"
+          alt="">&nbsp;&nbsp;Facebook</a></li>
+        <li><a href="https://www.tiktok.com/@eddyshairempire?_t=ZM-8y9X5FPpLWP&_r=1"><img
+          src="https://res.cloudinary.com/zone0/image/upload/icons8-tiktok-24_pn7ci8.png"
+          alt="">&nbsp;&nbsp;Ticktock <img src="" alt=""></a></li>
+        <li><a href="https://youtube.com/@eddyshairempire?si=evlNITQukeqGvvHz"><img
+          src="https://res.cloudinary.com/zone0/image/upload/youtube-fill_p3aece.png"
+          alt="">&nbsp;&nbsp;Youtube</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+  <div>
+    <h3>Booking Information</h3>
+
+    <h3>Online Booking</h3>
+    <p>Visit our website or use our mobile app to schedule appointments 24/7.</p>
+
+    <h3>Consultation Process</h3>
+    <div>
+      @for (consultant of consultation; track consultation) {
+        <ul>
+          <li>{{ consultant }}</li>
+        </ul>
+      }
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h3>Pricing Philosophy</h3>
+      <p>
+        We believe in transparent, value-based pricing that reflects the quality of our services and expertise. <br>
+        Detailed pricing is available upon consultation as each service is customized to individual needs.</p>
+      <p>
+    </div>
+
+    <h4>Special Programs</h4>
+    <h2>Loyalty Rewards</h2>
+
+    <div>
+      @for (loyal of loyaltyRewards; track loyaltyRewards) {
+        <ul>
+          <li>{{ loyal }}</li>
+        </ul>
+      }
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h3>Educational Workshops</h3>
+      @for (edu of educational; track educational) {
+        <ul>
+          {{ edu }}
+        </ul>
+      }
+    </div>
+
+    <div>
+      <h4>Hair Care Tips</h4>
+      <h3>Daily Maintenance</h3>
+      <ul>
+        <li>Use sulfate-free shampoos to preserve color</li>
+        <li>Apply heat protectant before styling</li>
+        <li>Sleep on silk pillowcases to reduce friction</li>
+        <li>Regular trims every 6-8 weeks for healthy growth</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h3>Seasonal Care</h3>
+      <ul>
+        <li>Summer: UV protection and hydrating treatments</li>
+        <li>Winter: Moisture-rich products and scalp care</li>
+        <li>Spring/Fall: Perfect time for color changes and new styles</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Sustainability Commitment</h3>
+      At Eddy's Hair Empire, we're committed to environmental responsibility:
+      <ul>
+        <li>Eco-friendly product lines available</li>
+        <li>Recycling program for hair clippings</li>
+        <li>Energy-efficient salon equipment</li>
+        <li>Sustainable packaging initiatives</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h3>Career Opportunities</h3>
+      <p>
+        Join the Eddy's Hair Empire family! We're always looking for passionate, talented individuals who share our
+        vision
+        of
+        excellence in hair and fashion.
+      </p>
+      <h4>Current Openings:</h4>
+      <ul>
+        <li>Senior Hair Stylists</li>
+        <li>Color Specialists</li>
+        <li>Fashion Consultants</li>
+        <li>Front Desk Coordinators</li>
+      </ul>
+    </div>
+
+    <div class="testimonial">
+      <h3>Client Testimonials</h3>
+      <div class="testimony">
+        <p>
+          "Eddy's Hair Empire completely transformed not just my hair, but my confidence. <br>
+          The team understands fashion
+          and
+          how
+          hair plays into your overall style." <strong>- Sarah M.</strong>
+        </p>
+      </div>
+
+      <div class="testimony">
+        <p>
+          "The best salon experience I've ever had. They truly live up to their empire name!" <strong>-
+          Beauty Blinks.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<section>
+  <div>
+    <div class="faq-section">
+      <div class="faqs">
+        <h4>FAQ</h4>
+        <p>Q: Do you work with all hair types?</p>
+        <p>A: Absolutely! Our team specializes in all hair textures, lengths, and types.</p>
+        <p>Q: How far in advance should I book?</p>
+        <p>A: We recommend booking 1-2 weeks in advance, especially for color services and weekends.</p>
+        <p>Q: Do you offer bridal packages?</p>
+        <p>A: Yes! We offer comprehensive bridal packages including trials, wedding day services, and bridal party
+          styling.</p>
+        <p>Q: What products do you recommend for home care?</p>
+        <p>A: We carry professional-grade products and will recommend the best options based on your hair type and
+          services
+          received.</p>
+      </div>
+    </div>
+
+    <h2>Contact Us Today</h2>
+
+    <div>
+      <p>
+        Ready to join the Eddy's Hair Empire experience? Contact us to schedule your consultation and discover the
+        perfect
+        hair and fashion combination for you. <br>
+        Remember: At Eddy's Hair Empire, you're not just getting a service - you're joining a community of style,
+        confidence,
+        and beauty.
+      </p>
+    </div>
+  </div>
+</section>
+
+</div>

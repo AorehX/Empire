@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
+import {RouterLink, RouterOutlet,} from '@angular/router';
 
 
 
 @Component({
   selector: 'app-products',
-  imports: [
-    NgOptimizedImage
-  ],
+  imports: [NgOptimizedImage, RouterLink, RouterOutlet,],
   templateUrl: './products.html',
   styleUrl: './products.scss'
 })
@@ -22,8 +21,24 @@ export class Products {
   imageTruck: string = "https://res.cloudinary.com/zone0/image/upload/truck-line_wf1djw.png"
 
   //<Hair products sections
+  moreItems: boolean = false;
   hairProduct_1: string = "https://res.cloudinary.com/zone0/image/upload/IMG_6580_shku6o.jpg"
   productLink_1: string = 'Cheap virgin hair body wave'
   productText_1:string = "brazilian hair,brazilian virgin hair,weavon,virgin hair,human hair,human hair nigeria,body" +
     " wave.."
+
+  hideBtn(){
+    this.moreItems = false;
+  }
+  showBtn(){
+    this.moreItems = true;
+  }
+  hairUrl:string = "https://res.cloudinary.com/zone0/image/upload/IMG_6581_r4sytr.jpg"
+
+  loadMore:boolean = false;
+
+  loadMoreItems() {
+    this.loadMore = true;
+  }
+
 }

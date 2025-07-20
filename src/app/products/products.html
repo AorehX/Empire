@@ -38,7 +38,7 @@
     DISCOUNT,
     FOLLOW US ON
     FACEBOOK <span>Eddy's hair
-      Empire</span></h4>
+        Empire</span></h4>
 </div>
 
 <!-- All the products -->
@@ -47,1103 +47,1923 @@
   <div class="products-samples">
     <!--item 1-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
+
     <!--item 2-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
     <!--item 3-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
     <!--item 4-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
     <!--item 5-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
-<!--item 6-->
+    <!--item 6-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
-<!--items 7-->
+    <!--items 7-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
-<!--items 8-->
+    <!--items 8-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
-<!--items 9-->
+    <!--items 9-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
-<!--items 10-->
+    <!--items 10-->
     <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
       <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
+        @if (moreItems) {
+          <div class="samples-2">
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+          </div>
+
+          <!--          <div class="product-text">-->
+            <!--            <p>{{ productText_1 }}</p>-->
+            <!--          </div>-->
+        } @else {
+          <div class="samples">
+            <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+          </div>
+        }
+        <a href="">{{ productLink_1 }}</a>
       </div>
 
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
+      @if (moreItems) {
+        <div class="product-text">
+          <p>{{ productText_1 }}</p>
+        </div>
+      }
 
       <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
         <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+        <button (click)="hideBtn()">Hide items</button>
+        <button (click)="showBtn()">View items</button>
       </div>
     </div>
 
-<!--items 11-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 12-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 13-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 14-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 15-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 16-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 17-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 18-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 19-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 20-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 21-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 22-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 23-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 24-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 25-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 26-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--itmes 27-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 28-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 29-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 30-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 31-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 32-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 33-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 34-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 35-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 36-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 37-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 38-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 39-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 40-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 41-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 42-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 43-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 44-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 45-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 46-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 47-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 48-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 49-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
-
-<!--items 50-->
-    <div class="products">
-      <div class="samples">
-        <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
-      </div>
-
-      <div class="product-link">
-        <a href="https://www.google.com/">{{ productLink_1 }}</a>
-      </div>
-
-      <div class="product-text">
-        <p>{{ productText_1 }}</p>
-      </div>
-
-      <div class="contact">
-        <button>Buy now <img src="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
-                             alt=""></button>
-        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
-          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="50" height="50"></a>
-      </div>
-    </div>
+    <!--Button to load more items-->
+    @if (loadMore) {
+      <!--items 11-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 12-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 13-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 14-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 15-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 16-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 17-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 18-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 19-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 20-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+    }
+
+    @if (loadMore) {
+      <!--items 21-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 22-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 23-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 24-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 25-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 26-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 27-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 28-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 29-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 30-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+    }
+
+
+    @if (loadMore) {
+      <!--items 31-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 32-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 33-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 34-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 35-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 36-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 37-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 38-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 39-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 40-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+    }
+
+    @if (loadMore) {
+      <!--items 41-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 42-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 43-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 44-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 45-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 46-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 47-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 48-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 49-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+
+      <!--items 50-->
+      <div class="products">
+        <div class="product-link">
+          @if (moreItems) {
+            <div class="samples-2">
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+              <div><img ngSrc="{{hairUrl}}" alt="" width="400" height="310"></div>
+            </div>
+
+            <!--          <div class="product-text">-->
+              <!--            <p>{{ productText_1 }}</p>-->
+              <!--          </div>-->
+          } @else {
+            <div class="samples">
+              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+            </div>
+          }
+          <a href="">{{ productLink_1 }}</a>
+        </div>
+
+        @if (moreItems) {
+          <div class="product-text">
+            <p>{{ productText_1 }}</p>
+          </div>
+        }
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+
+          <button (click)="hideBtn()">Hide items</button>
+          <button (click)="showBtn()">View items</button>
+        </div>
+      </div>
+    }
 
   </div>
+  <div class="load-button">
+    <button (click)="loadMoreItems()">Load more</button>
+  </div>
+</div>
 
+
+<a routerLink="/items">link me</a>
+
+<div class="router-link">
+  <router-outlet/>
 </div>
