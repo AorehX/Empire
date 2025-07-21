@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import {RouterLink, RouterOutlet,} from '@angular/router';
 
 
 
 @Component({
   selector: 'app-products',
-  imports: [NgOptimizedImage, RouterLink, RouterOutlet,],
+  imports: [NgOptimizedImage],
   templateUrl: './products.html',
   styleUrl: './products.scss'
 })
 
 export class Products {
+  // the header section images
   banner: string = "https://res.cloudinary.com/zone0/image/upload/banner_ja2sk9.jpg"
   image_banner: string = "https://res.cloudinary.com/zone0/image/upload/bob-wig-with-bangs-1-400x380.jpg_yev5xw.webp"
   image_1: string = "https://res.cloudinary.com/zone0/image/upload/bundles-with-closure-400x180.jpg_xrsdas.webp"
@@ -21,24 +21,37 @@ export class Products {
   imageTruck: string = "https://res.cloudinary.com/zone0/image/upload/truck-line_wf1djw.png"
 
   //<Hair products sections
-  moreItems: boolean = false;
+  // section 1
   hairProduct_1: string = "https://res.cloudinary.com/zone0/image/upload/IMG_6580_shku6o.jpg"
-  productLink_1: string = 'Cheap virgin hair body wave'
-  productText_1:string = "brazilian hair,brazilian virgin hair,weavon,virgin hair,human hair,human hair nigeria,body" +
-    " wave.."
+  hairProduct_2:string = "https://res.cloudinary.com/zone0/image/upload/IMG_5963_ainahe.jpg"
+  productName_1: string = 'SDD Bone straight'
 
+  moreImages: boolean = false;
   hideBtn(){
-    this.moreItems = false;
+    this.moreImages = false;
   }
   showBtn(){
-    this.moreItems = true;
+    this.moreImages = true;
   }
-  hairUrl:string = "https://res.cloudinary.com/zone0/image/upload/IMG_6581_r4sytr.jpg"
 
+  // section 2
+  hairProduct_2_a: string = "https://res.cloudinary.com/zone0/image/upload/IMG_6467_xtyalr.jpg"
+  hairProduct_2_aa:string = "https://res.cloudinary.com/zone0/image/upload/IMG_6378_zrejgb.jpg"
+  productName_2_a: string = 'SDD Bone straight'
+
+  moreImages_2: boolean = false;
+  hideBtn_2(){
+    this.moreImages = false;
+  }
+  showBtn_2(){
+    this.moreImages = true;
+  }
+
+  // <load more button for more items
   loadMore:boolean = false;
-
   loadMoreItems() {
     this.loadMore = true;
   }
+
 
 }

@@ -58,39 +58,24 @@ html{
   color: red;
 }
 
-.products-samples {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 10px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-}
-
-.product {
+.products {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.samples {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.samples-2 {
-  display: flex;
+.samples-1 {
   gap: 5px;
+  display: flex;
   align-content: center;
   align-items: center;
   justify-content: center;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.samples-2 img {
+.samples-1 img {
   display: block;
   width: 100%;
   height: auto;
@@ -98,7 +83,17 @@ html{
   border-radius: 5px;
 }
 
-.samples img {
+.samples-2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.samples-2 img {
   width: 100%;
   height: auto;
   display: block;
@@ -107,11 +102,8 @@ html{
   border-radius: 10px;
 }
 
-.product-link a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+.product-info h3 {
+  text-align: center;
 }
 
 .product-text {
@@ -168,8 +160,8 @@ html{
 
 .load-button button {
   margin: 10px;
-  width: 170px;
-  font-size: 25px;
+  width: 200px;
+  font-size: 20px;
   color: whitesmoke;
   text-align: center;
   border-radius: 10px;
@@ -181,5 +173,13 @@ html{
   background: #333333;
   color: #ffffff;
   cursor: pointer;
+}
 
+.updating-items h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+background-color: rebeccapurple;
+  color: white;
+  border-radius: 10px;
 }
