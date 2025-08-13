@@ -178,6 +178,27 @@ html {
   background-color: rebeccapurple;
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float img {
+  width: 40px;
+  height: 40px;
+}
+
 /* Mobile */
 @media (max-width: 480px) {
   .product-info {
@@ -202,13 +223,17 @@ html {
 
 /* Small Tablets */
 
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+}
 
 /* Large Tablets/Laptops */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
 
 /* Desktops */
-@media (min-width: 1200px) and (max-width: 1919px) {}
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
 
 /* Extra Large Screens */
-@media (min-width: 1920px) {}
+@media (min-width: 1920px) {
+}
