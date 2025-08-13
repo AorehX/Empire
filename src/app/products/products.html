@@ -41,83 +41,711 @@
         Empire</span></h4>
 </div>
 
-<!--&lt;!&ndash; All the products &ndash;&gt;-->
-<!--  <div class="products-container">-->
-<!--      &lt;!&ndash;item 1&ndash;&gt;-->
-<!--      <div class="products">-->
-<!--        <div class="product-info">-->
-<!--          @if (moreImages) {-->
-<!--            <div class="samples-1">-->
-<!--              <div><img ngSrc="{{hairProduct_2}}" alt="" width="400" height="310"></div>-->
-<!--              <div><img ngSrc="{{hairProduct_2}}" alt="" width="400" height="310"></div>-->
-<!--              <div><img ngSrc="{{hairProduct_2}}" alt="" width="400" height="310"></div>-->
-<!--            </div>-->
-<!--          } @else {-->
-<!--            <div class="samples-2">-->
-<!--              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">-->
-<!--              <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">-->
-<!--            </div>-->
-<!--          }-->
+<!-- All the products -->
+<div class="products-container">
+  <div class="products">
+    <!--item 1-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_1}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+      </p>
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
 
-<!--          <h3>{{ productName_1 }}</h3>-->
+    <!--item 2-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_2}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
 
-<!--          @if (moreImages) {-->
-<!--            <div class="product-text">-->
-<!--              <p>Original normal bone straight, </p>-->
-<!--            </div>-->
-<!--          }-->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
 
-<!--          <div class="contact">-->
-<!--            <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"-->
-<!--                                 alt="" width="20" height="18"></button>-->
-<!--            <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img-->
-<!--              ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>-->
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
 
-<!--            <button (click)="hideBtn()">Hide items</button>-->
-<!--            <button (click)="showBtn()">View items</button>-->
-<!--          </div>-->
-<!--        </div>-->
+    <!--item 3-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_3}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
 
-<!--&lt;!&ndash;items 2&ndash;&gt;-->
-<!--        <div class="product-info">-->
-<!--          @if (moreImages_2) {-->
-<!--            <div class="samples-1">-->
-<!--              <div><img ngSrc="{{hairProduct_2_a}}" alt="" width="400" height="310"></div>-->
-<!--              <div><img ngSrc="{{hairProduct_2_a}}" alt="" width="400" height="310"></div>-->
-<!--              <div><img ngSrc="{{hairProduct_2_a}}" alt="" width="400" height="310"></div>-->
-<!--            </div>-->
-<!--          } @else {-->
-<!--            <div class="samples-2">-->
-<!--              <img ngSrc="{{hairProduct_2_aa}}" alt="" width="400" height="310">-->
-<!--              <img ngSrc="{{hairProduct_2_aa}}" alt="" width="400" height="310">-->
-<!--            </div>-->
-<!--          }-->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
 
-<!--          <h3>{{ productName_2_a }}</h3>-->
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
 
-<!--          @if (moreImages_2) {-->
-<!--            <div class="product-text">-->
-<!--              <p>Original normal bone straight, </p>-->
-<!--            </div>-->
-<!--          }-->
+    <!--item 4-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_4}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
 
-<!--          <div class="contact">-->
-<!--            <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"-->
-<!--                                 alt="" width="20" height="18"></button>-->
-<!--            <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img-->
-<!--              ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>-->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
 
-<!--            <button (click)="hideBtn_2()">Hide items</button>-->
-<!--            <button (click)="showBtn_2()">View items</button>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--    </div>-->
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
 
-<!--  </div>-->
-<!--<div class="load-button">-->
-<!--  <button (click)="loadMoreItems()">updating products..</button>-->
-<!--</div>-->
+    <!--item 5-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_5}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
 
-<div class="updating-items">
-  <h4>Products Catalogues will be updated in a few days..</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
+
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
+
+    <!--item 6-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_6}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
+
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
+
+
+    <!--item 7-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_7}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
+
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
+
+    <!--item 8-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_8}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
+
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
+
+    <!--item 9-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_9}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
+
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
+
+    <!--item 10-->
+    <div class="product-info">
+      <div class="samples-container">
+        <div class="samples-1">
+          <img ngSrc="{{hairProduct_10}}" alt="" width="400" height="310">
+        </div>
+        <h4>{{ productName_1 }}</h4>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+        at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+        sint.
+      </p>
+
+      <div class="contact">
+        <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                             alt="" width="20" height="18"></button>
+        <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+          ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--item 11-->
+  <div class="product-info">
+    <div class="samples-container">
+      <div class="samples-1">
+        <img ngSrc="{{hairProduct_11}}" alt="" width="400" height="310">
+      </div>
+      <h4>{{ productName_1 }}</h4>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+      at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+      sint.
+    </p>
+
+    <div class="contact">
+      <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                           alt="" width="20" height="18"></button>
+      <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+        ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+    </div>
+  </div>
+
+  <!--item 12-->
+  <div class="product-info">
+    <div class="samples-container">
+      <div class="samples-1">
+        <img ngSrc="{{hairProduct_12}}" alt="" width="400" height="310">
+      </div>
+      <h4>{{ productName_1 }}</h4>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+      at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+      sint.
+    </p>
+
+    <div class="contact">
+      <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                           alt="" width="20" height="18"></button>
+      <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+        ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+    </div>
+  </div>
+
+  <!--item 13-->
+  <div class="product-info">
+    <div class="samples-container">
+      <div class="samples-1">
+        <img ngSrc="{{hairProduct_13}}" alt="" width="400" height="310">
+      </div>
+      <h4>{{ productName_1 }}</h4>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+      at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+      sint.
+    </p>
+
+    <div class="contact">
+      <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                           alt="" width="20" height="18"></button>
+      <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+        ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+    </div>
+  </div>
+
+  <!--item 14-->
+  <div class="product-info">
+    <div class="samples-container">
+      <div class="samples-1">
+        <img ngSrc="{{hairProduct_14}}" alt="" width="400" height="310">
+      </div>
+      <h4>{{ productName_1 }}</h4>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+      at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+      sint.
+    </p>
+
+    <div class="contact">
+      <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                           alt="" width="20" height="18"></button>
+      <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+        ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+    </div>
+  </div>
+
+  @if (loadMore) {
+    <!--item 15-->
+    <div class="product">
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_15}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 16-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_16}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 17-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_17}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 18-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_18}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 19-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_19}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 20-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_20}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 21-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_21}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 22-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_22}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 23-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_23}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 24-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_24}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 25-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_25}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 26-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_26}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 27-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_27}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 28-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_28}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 29-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_29}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+
+      <!--item 30-->
+      <div class="product-info">
+        <div class="samples-container">
+          <div class="samples-1">
+            <img ngSrc="{{hairProduct_30}}" alt="" width="400" height="310">
+          </div>
+          <h4>{{ productName_1 }}</h4>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ex, expedita explicabo incidunt, pisci
+          at cumque error nihil perferendis quibusdam, ut? Aliquid autem deserunt excepturi ipsum nobis pariatur quidem
+          sint.
+        </p>
+
+        <div class="contact">
+          <button>Buy now <img ngSrc="https://res.cloudinary.com/zone0/image/upload/arrow-right-circle-fill_b0a5tr.png"
+                               alt="" width="20" height="18"></button>
+          <a href="https://wa.me/message/N2QKWIIFRLCVN1"><img
+            ngSrc="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="" width="40" height="35"></a>
+        </div>
+      </div>
+    </div>
+  }
 </div>
+
+
+<div class="load-button">
+  <button (click)="loadMoreItems()">More items..</button>
+
+  <button (click)="lessItems()">Less items..</button>
+</div>
+
+<!--<div class="updating-items">-->
+<!--  <h4>Products Catalogues will be updated in a few days..</h4>-->
+<!--</div>-->

@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -61,49 +61,41 @@ html{
 .products {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.samples-1 {
-  gap: 5px;
-  display: flex;
-  align-content: center;
   align-items: center;
-  justify-content: center;
-   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  //box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.samples-1 img {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: relative;
-  border-radius: 5px;
-}
 
-.samples-2 {
+.product-info {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
+.product-info p {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
 
+.samples-container h4 {
+  text-align: center;
+}
 
-.samples-2 img {
+.samples-1 {
+  text-align: center;
+}
+
+.samples-1 img {
   width: 100%;
   height: auto;
   display: block;
   position: relative;
+  border-radius: 5px;
   overflow: hidden;
-  border-radius: 10px;
-}
-
-.product-info h3 {
-  text-align: center;
 }
 
 .product-text {
@@ -160,12 +152,12 @@ html{
 
 .load-button button {
   margin: 10px;
-  width: 200px;
-  font-size: 20px;
+  width: 150px;
+  font-size: 18px;
   color: whitesmoke;
   text-align: center;
   border-radius: 10px;
-  background: #333333;
+  background: rebeccapurple;
 }
 
 .load-button button:hover {
@@ -176,10 +168,47 @@ html{
 }
 
 .updating-items h4 {
+  width: 70vw;
+  color: white;
+  margin: 0 auto;
   text-align: center;
   font-weight: bold;
   font-size: 32px;
-background-color: rebeccapurple;
-  color: white;
   border-radius: 10px;
+  background-color: rebeccapurple;
 }
+
+/* Mobile */
+@media (max-width: 480px) {
+  .product-info {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Extra Small Devices */
+@media (min-width: 481px) and (max-width: 767px) {
+  .product-info {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Small Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Tablets/Laptops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1919px) {}
+
+/* Extra Large Screens */
+@media (min-width: 1920px) {}
