@@ -69,7 +69,7 @@ export class Products {
   productName_23: string = 'Unknown Hair'
   hairProduct_24: string = 'https://res.cloudinary.com/zone0/image/upload/IMG_5647_iogxse.png'
   productName_24: string = 'Unknown Hair'
-  hairProduct_25: string = 'https://res.cloudinary.com/zone0/image/upload/IMG_5938_rya6xy.png'
+  hairProduct_25: string = 'https://res.cloudinary.com/zone0/image/upload/IMG_6335_wyc0j9.png'
   productName_26: string = 'Unknown Hair'
   hairProduct_26: string = 'https://res.cloudinary.com/zone0/image/upload/IMG_6180_tslcsl.png'
   productName_27: string = 'Unknown Hair'
